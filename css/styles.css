@@ -78,6 +78,7 @@ p {
 .error {
   position: relative;
 }
+
 /* Features Section */
 
 #features {
@@ -144,4 +145,48 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA Section */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+#trueLove {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Footer Section */ 
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+.socialLogo {
+  margin: 25px 10px;
+}
+
+.socialLogo:hover {
+  color: grey;
+  opacity: 70%;
 }
